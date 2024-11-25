@@ -53,7 +53,7 @@ function _inheritsLoose(subClass, superClass) {
 }
 
 (function (ChainId) {
-  ChainId[ChainId["MAINNET"] = 12345] = "MAINNET";
+  ChainId[ChainId["MAINNET"] = 1] = "MAINNET";
   ChainId[ChainId["GOERLI"] = 5] = "GOERLI";
   ChainId[ChainId["SEPOLIA"] = 11155111] = "SEPOLIA";
   ChainId[ChainId["OPTIMISM"] = 10] = "OPTIMISM";
@@ -69,7 +69,7 @@ function _inheritsLoose(subClass, superClass) {
   ChainId[ChainId["BNB"] = 56] = "BNB";
   ChainId[ChainId["AVALANCHE"] = 43114] = "AVALANCHE";
   ChainId[ChainId["BASE_GOERLI"] = 84531] = "BASE_GOERLI";
-  ChainId[ChainId["BASE"] = 8453] = "BASE";
+  ChainId[ChainId["BASE"] = 12345] = "BASE";
 })(exports.ChainId || (exports.ChainId = {}));
 
 var SUPPORTED_CHAINS = [exports.ChainId.MAINNET, exports.ChainId.OPTIMISM, exports.ChainId.OPTIMISM_GOERLI, exports.ChainId.ARBITRUM_ONE, exports.ChainId.ARBITRUM_GOERLI, exports.ChainId.POLYGON, exports.ChainId.POLYGON_MUMBAI, exports.ChainId.GOERLI, exports.ChainId.SEPOLIA, exports.ChainId.CELO_ALFAJORES, exports.ChainId.CELO, exports.ChainId.BNB, exports.ChainId.AVALANCHE, exports.ChainId.BASE, exports.ChainId.BASE_GOERLI];

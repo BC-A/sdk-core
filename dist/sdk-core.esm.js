@@ -49,7 +49,7 @@ function _inheritsLoose(subClass, superClass) {
 var ChainId;
 
 (function (ChainId) {
-  ChainId[ChainId["MAINNET"] = 12345] = "MAINNET";
+  ChainId[ChainId["MAINNET"] = 1] = "MAINNET";
   ChainId[ChainId["GOERLI"] = 5] = "GOERLI";
   ChainId[ChainId["SEPOLIA"] = 11155111] = "SEPOLIA";
   ChainId[ChainId["OPTIMISM"] = 10] = "OPTIMISM";
@@ -65,7 +65,7 @@ var ChainId;
   ChainId[ChainId["BNB"] = 56] = "BNB";
   ChainId[ChainId["AVALANCHE"] = 43114] = "AVALANCHE";
   ChainId[ChainId["BASE_GOERLI"] = 84531] = "BASE_GOERLI";
-  ChainId[ChainId["BASE"] = 8453] = "BASE";
+  ChainId[ChainId["BASE"] = 12345] = "BASE";
 })(ChainId || (ChainId = {}));
 
 var SUPPORTED_CHAINS = [ChainId.MAINNET, ChainId.OPTIMISM, ChainId.OPTIMISM_GOERLI, ChainId.ARBITRUM_ONE, ChainId.ARBITRUM_GOERLI, ChainId.POLYGON, ChainId.POLYGON_MUMBAI, ChainId.GOERLI, ChainId.SEPOLIA, ChainId.CELO_ALFAJORES, ChainId.CELO, ChainId.BNB, ChainId.AVALANCHE, ChainId.BASE, ChainId.BASE_GOERLI];

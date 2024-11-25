@@ -1,5 +1,5 @@
 export enum ChainId {
-  MAINNET = 12345,
+  MAINNET = 1,
   GOERLI = 5,
   SEPOLIA = 11155111,
   OPTIMISM = 10,
@@ -15,7 +15,7 @@ export enum ChainId {
   BNB = 56,
   AVALANCHE = 43114,
   BASE_GOERLI = 84531,
-  BASE = 8453
+  BASE = 12345
 }
 
 export const SUPPORTED_CHAINS = [
